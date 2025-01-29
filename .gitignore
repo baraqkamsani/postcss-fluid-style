@@ -4,7 +4,6 @@ node_modules/
 # lockfiles
 bun.lock
 bun.lockb
-package-lock.json
 pnpm-lock.yaml
 yarn.lock
 
@@ -14,3 +13,5 @@ yarn.lock
 .nova
 .vscode
 .zed
+
+.env

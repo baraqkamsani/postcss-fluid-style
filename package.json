@@ -1,0 +1,82 @@
+{
+  "name": "postcss-fluid-style",
+  "description": "Build fluid text and style in CSS",
+  "version": "0.7.0",
+  "contributors": [
+    {
+      "name": "Baraq Kamsani",
+      "email": "baraqkamsani@hotmail.com",
+      "url": "https://baraqkamsani.com"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.min.mjs"
+      },
+      "require": {
+        "default": "./dist/index.min.cjs"
+      }
+    }
+  },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "peerDependencies": {
+    "postcss": "^8.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "rimraf": "^6.0.1",
+    "rolldown": "^1.0.0-beta.3",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "bundle": "rolldown -c rolldown.config.mjs",
+    "types": "tsc --emitDeclarationOnly --outDir dist",
+    "build": "npm run clean && npm run bundle && npm run types",
+
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "prepublish": "npm run build && npm run test"
+  },
+  "homepage": "https://github.com/baraqkamsani/postcss-fluid-type#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baraqkamsani/postcss-fluid-type.git"
+  },
+  "bugs": "https://github.com/baraqkamsani/postcss-fluid-type/issues",
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "clamp",
+    "container",
+    "css",
+    "fluid",
+    "javascript",
+    "js",
+    "postcss",
+    "postcss-plugin",
+    "px",
+    "rem",
+    "scale",
+    "size",
+    "style",
+    "text",
+    "type",
+    "typography",
+    "viewport"
+  ]
+}

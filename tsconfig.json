@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowJs": false,
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "declaration": true,
+    "isolatedModules": true,
+    "useUnknownInCatchVariables": false,
+    "strict": false,
+    "types": ["jest", "node"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules"]
+}
