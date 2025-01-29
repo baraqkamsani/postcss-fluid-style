@@ -1,7 +1,7 @@
 {
   "name": "postcss-fluid-style",
   "description": "Build fluid text and style in CSS",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "contributors": [
     {
       "name": "Baraq Kamsani",
@@ -48,16 +48,15 @@
     "bundle": "rolldown -c rolldown.config.mjs",
     "types": "tsc --emitDeclarationOnly --outDir dist",
     "build": "npm run clean && npm run bundle && npm run types",
-
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "prepublish": "npm run build && npm run test"
   },
-  "homepage": "https://github.com/baraqkamsani/postcss-fluid-type#readme",
+  "homepage": "https://github.com/baraqkamsani/postcss-fluid-style#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baraqkamsani/postcss-fluid-type.git"
+    "url": "git+https://github.com/baraqkamsani/postcss-fluid-style.git"
   },
-  "bugs": "https://github.com/baraqkamsani/postcss-fluid-type/issues",
+  "bugs": "https://github.com/baraqkamsani/postcss-fluid-style/issues",
   "keywords": [
     "a11y",
     "accessibility",

@@ -1,9 +1,15 @@
+# [0.7.1] - 2025-01-30
+
+### Features
+
+* **ci:** Add test workflow
+
 # [0.7.0] - 2025-01-30
 
 ### Features
 
-- Initial release
-- Support for fluid style calculations
-- WCAG compliance checking
-- Custom viewport unit support
-- Custom base size support
+* initial release
+  * add support for fluid style calculations
+  * add WCAG compliance checking
+  * add custom viewport unit support
+  * add custom base size support

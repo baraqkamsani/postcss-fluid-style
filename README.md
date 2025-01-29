@@ -1,5 +1,12 @@
 # PostCSS Fluid Style
 
+[![npm version](https://img.shields.io/npm/v/postcss-fluid-style.svg)](https://www.npmjs.com/package/postcss-fluid-style)
+[![Build Status](https://github.com/baraqkamsani/postcss-fluid-style/actions/workflows/test.yaml/badge.svg)](https://github.com/baraqkamsani/postcss-fluid-style)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PostCSS](https://img.shields.io/badge/PostCSS-8.0-blue.svg)](https://github.com/postcss/postcss)
+[![Minified Size](https://img.shields.io/bundlephobia/min/postcss-fluid-style)](https://bundlephobia.com/package/postcss-fluid-style)
+[![Types](https://img.shields.io/npm/types/postcss-fluid-style)](https://www.npmjs.com/package/postcss-fluid-style)
+
 [PostCSS Fluid Style] lets you build fluid text and size while maintaining WCAG compliance.
 
 This plugin is adapted from [barvian/fluid.style]. \
