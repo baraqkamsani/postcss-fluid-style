@@ -49,7 +49,7 @@
     "types": "tsc --emitDeclarationOnly --outDir dist",
     "build": "npm run clean && npm run bundle && npm run types",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "prepublish": "npm run build && npm run test"
+    "prepublishOnly": "npm run build && npm run test"
   },
   "homepage": "https://github.com/baraqkamsani/postcss-fluid-style#readme",
   "repository": {
