@@ -1,3 +1,9 @@
+# [0.8.0] - 2025-02-08
+
+### Bug Fixes
+
+* fix esm default import usage
+
 # [0.7.1] - 2025-01-30
 
 ### Features

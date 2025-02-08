@@ -1,7 +1,7 @@
 {
   "name": "postcss-fluid-style",
   "description": "Build fluid text and style in CSS",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "contributors": [
     {
       "name": "Baraq Kamsani",
