@@ -14,16 +14,16 @@
     "node": ">=18"
   },
   "type": "module",
-  "main": "dist/index.cjs",
+  "main": "dist/index.js",
   "module": "dist/index.mjs",
   "exports": {
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/index.min.mjs"
+        "default": "./dist/index.mjs"
       },
       "require": {
-        "default": "./dist/index.min.cjs"
+        "default": "./dist/index.js"
       }
     }
   },

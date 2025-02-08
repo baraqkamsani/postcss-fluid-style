@@ -10,24 +10,12 @@ export default defineConfig({
 		{
 			dir,
 			format: 'esm',
+			entryFileNames: '[name].mjs',
+		},
+		{
+			dir,
+			format: 'cjs',
 			entryFileNames: '[name].js',
-		},
-		{
-			dir,
-			format: 'esm',
-			entryFileNames: '[name].min.js',
-			minify: true,
-		},
-		{
-			dir,
-			format: 'cjs',
-			entryFileNames: '[name].cjs',
-		},
-		{
-			dir,
-			format: 'cjs',
-			entryFileNames: '[name].min.cjs',
-			minify: true,
 		},
 	],
 	resolve: {

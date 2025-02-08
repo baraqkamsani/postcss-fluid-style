@@ -1,5 +1,5 @@
 import postcss from 'postcss';
-import plugin from '../dist/index.min.js';
+import plugin from '../dist/index.mjs';
 
 describe('postcss-fluid-style', () => {
 	async function run(input, opts = {}) {
