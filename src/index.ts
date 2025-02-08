@@ -7,7 +7,7 @@ import {
 	remFromPixel,
 	round,
 	validateInput,
-} from "./utils";
+} from './utils';
 
 export type pluginOptions = {
 	baseSize?:       number;                  // Base font size in pixels.      default: 16
